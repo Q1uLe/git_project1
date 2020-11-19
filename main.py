@@ -29,7 +29,7 @@ class Example(QWidget):
         self.update()
 
     def draw_circle(self, qp):
-        qp.setBrush(QColor(randint(0, 256), randint(0, 256), randint(0, 256)))
+        qp.setBrush(QColor(255, 255, 0))
         r = randint(0, 300)
         x = int(randint(r, 1014 - r) - r / 2)
         y = int(randint(r, 618 - r) - r / 2)
